@@ -1,0 +1,5 @@
+split_states 1c9y
+alter 1c9y_0002, chain="B"
+alter 1c9y_0003, chain="C"
+create merged, 1c9y_*
+save out.pdb, merged
